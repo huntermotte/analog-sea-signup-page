@@ -1,0 +1,77 @@
+body {
+	background-color: DodgerBlue;
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto', helvetica, sans-serif;
+}
+
+.logo {
+	height: 35px;
+	text-align: center;
+	display: block;
+}
+
+.content {
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.signup-form {
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: white;
+	margin-top: 200px;
+}
+
+label {
+	display: block;
+	font-size: 15px;
+	padding: 5px;
+}
+
+button {
+	display: block;
+	padding: 5px;
+}
+
+.forgot-password {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+h4 {
+	color: white;
+	text-align: center;
+}
+
+.email-button {
+	width: 320px;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+.password-button {
+	width: 320px;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+.submit-button {
+	color: white;
+	background-color: LimeGreen;
+	width: 320px;
+	border: 2px LimeGreen;
+	padding: 15px;
+}
+
+.submit-button:hover {
+	background-color: #006400;
+	color: white;
+}
